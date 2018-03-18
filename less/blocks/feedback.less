@@ -1,0 +1,83 @@
+.feedback {
+  padding: 0 42px;
+  padding-bottom: 30px;
+  border: none;
+  
+  &__item {
+    margin: 0;
+    padding: 0 160px;
+    border: none;
+    
+    &:first-child {
+      border-top: 3px solid #0d0f1b;
+    }
+  }
+  
+  &__title {  
+    width: 205px;
+    margin: 0 auto;
+    margin-bottom: 11px;
+    padding: 9px 0;
+    border: 3px solid #0d0f1b;
+    background-color: white;
+    font-size: 24px;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: #0d0f1b;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 
+      -6px 6px 0px -3px white,
+      -6px 6px 0px 0px #0d0f1b;
+  }
+  
+  &__text {
+    font-size: 28px;
+    line-height: 1.2em;
+    font-weight: 400;
+    color: #0d0f1b;
+    text-align: center;
+  }
+  
+  &__item--form {
+    padding-top: 8px;
+    text-align: center;
+  }
+  
+  &__input {
+    width: 100%;
+    padding: 13px 20px;
+    margin: 0;
+    margin-bottom: 20px;
+    border: 2px solid #0d0f1b;
+    box-sizing: border-box;
+    font-family: @opensans;
+    font-size: 12px;
+    line-height: 24px;
+    color: @gray;
+    
+    &--half {
+      width: 48.3871%;
+      
+      &:first-child {
+        margin-right: 2.6%;
+      }
+    }
+    
+    &--message {
+      height: 185px;
+      resize: none;
+      overflow-y: auto;
+    }
+  }
+  
+  &__btn {
+    width: 160px;
+    padding: 14px;
+    border: none;
+    font-family: @opensans;
+    color: white;
+    background-color: @bg-blue;
+    
+  }
+}
